@@ -24,12 +24,12 @@ nav {
 
 .logo {
     flex-basis: 20%;
-    background-repeat: no-repeat;
 }
 
 .logo img {
     width: 100px;
     background-repeat: no-repeat;
+    border-image-repeat: inherit;
 }
 
 .nav-links {
