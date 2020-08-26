@@ -64,3 +64,9 @@ html {
     background-position: center;
     background-size: cover;
 }
+
+.footer-link {
+    margin: auto 0;
+    text-decoration: none;
+    color: white;
+}
