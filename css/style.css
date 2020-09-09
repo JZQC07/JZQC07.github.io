@@ -145,13 +145,13 @@ nav ul li a {
     line-height: 5px;
 }
 
-.about-text p:nth-child(3),
+/* .about-text p:nth-child(3),
 .about-text p:nth-child(4) {
     color: #7e7d7d;
     font-family: sans-serif;
     font-size: 16px;
     line-height: 0px;
-}
+} */
 
 .services {
     height: 600px;
