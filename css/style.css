@@ -92,5 +92,7 @@ nav ul li a {
 }
 
 .model {
-    position: fixed;
+    background: url("/annie-spratt-yI3weKNBRTc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
 }
