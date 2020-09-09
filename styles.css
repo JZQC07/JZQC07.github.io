@@ -44,13 +44,14 @@ nav {
     margin: 0 20px;
 }
 
-.nav-links ul li a {
+.nav-links ul li h2 {
     color: #fff;
     text-decoration: none;
 }
 
 body,
-h1 {
+h1,
+h2 {
     font-family: "Raleway", sans-serif
 }
 
