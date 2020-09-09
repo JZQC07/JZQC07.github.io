@@ -96,5 +96,5 @@ nav ul li a {
     position: absolute;
     bottom: 0px;
     left: 70%;
-    transform: translateZ(-70%);
+    transform: translateX(-70%);
 }
