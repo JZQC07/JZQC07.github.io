@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>jzqc07.github.io</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -20,6 +21,11 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+
+            <!--Bars-->
+            <div class="toggle"></div>
+
+
         </nav>
         <div class="text-container">
             <p>Hello,</p>
@@ -83,6 +89,15 @@
 
 
     </footer>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('toggle').click(function () {
+                $('.toggle').toggleClass('active')
+                $('.nav').toggleClass('active')
+            })
+        })
+    </script>
 
 </body>
 
