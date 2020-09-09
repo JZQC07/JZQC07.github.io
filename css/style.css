@@ -176,7 +176,10 @@ nav ul li a {
 
 .box-1,
 .box-2,
-.box-3 {
+.box-3,
+.box-4,
+.box-5,
+.box-6 {
     width: 300px;
     height: 320px;
     background-repeat: no-repeat;
@@ -190,13 +193,25 @@ nav ul li a {
 }
 
 .box-1 {
-    background-image: url("");
+    background-image: url("/c-sharp-c-logo-02F17714BA-seeklogo.com.png");
 }
 
 .box-2 {
-    background-image: url("");
+    background-image: url("/nodejs-logo-D26404F360-seeklogo.com.png");
 }
 
 .box-3 {
-    background-image: url("");
+    background-image: url("/1200px-Python-logo-notext.svg.png");
+}
+
+.box-4 {
+    background-image: url("/png-transparent-microsoft-azure-sql-database-microsoft-sql-server-cloud-computing-blue-text-logo.png");
+}
+
+.box-5 {
+    background-image: url("/c7a20afb9d37ce63175725158cc24391.png");
+}
+
+.box-6 {
+    background-image: url("/html-css-js.jpg");
 }
