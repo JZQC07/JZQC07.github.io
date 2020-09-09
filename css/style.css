@@ -90,3 +90,11 @@ nav ul li a {
     top: 42%;
     transform: translate(-13%, -42%);
 }
+
+.model {
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    transform: translateZ(-70%);
+}
