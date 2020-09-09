@@ -114,6 +114,13 @@ nav ul li a {
     height: 250px;
 }
 
+.about-container h1 {
+    color: #403e3e;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 4px;
+}
+
 .about-text {
     width: 550px;
 }
