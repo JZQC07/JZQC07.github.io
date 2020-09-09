@@ -10,6 +10,7 @@
     position: relative;
     overflow: hidden;
     background: linear-gradient(to right, #9c27b0, #8ecdff);
+    color: white;
 }
 
 nav {
