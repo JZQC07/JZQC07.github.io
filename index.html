@@ -1,104 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jzqc07.github.io</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!--Home-->
     <section>
-        <nav>
-            <a href="#" class="logo">Jonatan</a>
+      <nav>
+        <a href="#" class="logo">Jonatan</a>
 
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-            <!--Bars-->
-            <div class="toggle"></div>
+        <!--Bars-->
+        <div class="toggle"></div>
+      </nav>
+      <div class="text-container">
+        <p>Hello,</p>
+        <p>I am Jonatan</p>
+        <p>A Systems Developer - .NET</p>
+      </div>
 
-
-        </nav>
-        <div class="text-container">
-            <p>Hello,</p>
-            <p>I am Jonatan</p>
-            <p>A Systems Developer - .NET</p>
-        </div>
-
-        <img src="" alt="" class="model" alt="model">
-
+      <img src="" alt="" class="model" alt="model" />
     </section>
 
     <!--About-->
     <div class="about-container">
-        <h1>Scan barcode to donate</h1>
-        <img src="/swish.jpg" alt="" class="">
-        <div class="about-text">
-            <p>About me</p>
-            <p>Developer & Systems Architect</p>
-            <p>Hi, my name is Jonatan Schultz.</p>
-            <p>I am currently studying Systemutvecklare.NET at Borås Yrkeshögskola @SE</p>
-        </div>
+      <h1>Scan barcode to donate</h1>
+      <img src="/swish.jpg" alt="" class="" />
+      <div class="about-text">
+        <p>About me</p>
+        <p>Developer & Systems Architect</p>
+        <p>Hi, my name is Jonatan Schultz.</p>
+        <p>
+          I am currently studying Systemutvecklare.NET at Borås Yrkeshögskola
+          @SE
+        </p>
+      </div>
     </div>
 
     <!--Services-->
     <div class="services">
-        <div class="services-text">
-            <p>Services</p>
-            <p>Services required</p>
-            <p>Do you need a solution for your infrastructure? Contact me.</p>
-        </div>
-        <div class="box-container">
-            <div class="box-1"></div>
-            <div class="box-2"></div>
-            <div class="box-3"></div>
-            <div class="box-4"></div>
-            <div class="box-5"></div>
-            <div class="box-6"></div>
-        </div>
+      <div class="services-text">
+        <p>Services</p>
+        <p>Services required</p>
+        <p>Do you need a solution for your infrastructure? Contact me below.</p>
+      </div>
+      <div class="box-container">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="box-5"></div>
+        <div class="box-6"></div>
+      </div>
     </div>
 
     <!--Contact-->
     <div class="contact-me">
-        <p>Want me to plan your solution?</p>
-        <button>Contact Me</button>
+      <p>Want me to plan your solution?</p>
+      <a href="contact.html" class="button">Contact me/a>
     </div>
 
     <!--Footer-->
     <footer>
-        <p></p>
-        <p></p>
-        <!--Social-->
-        <div class="social-icons">
-            <a href="https://www.facebook.com/jonatan.schultz.1"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/jonatan-schultz-777257105/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/exemplarisk"><i class="fab fa-github"></i></a>
-            <a href="https://www.instagram.com/jonatanschultz/"><i class="fab fa-instagram"></i></a>
-        </div>
+      <p></p>
+      <p></p>
+      <!--Social-->
+      <div class="social-icons">
+        <a href="https://www.facebook.com/jonatan.schultz.1"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/jonatan-schultz-777257105/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/exemplarisk"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com/jonatanschultz/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
 
-        <!--Copyright-->
-        <p class="copyright">Copyright by Jonatan Schultz</p>
-
-
+      <!--Copyright-->
+      <p class="copyright">Copyright by Jonatan Schultz</p>
     </footer>
     <script type="text/javascript" src="js/jQuery.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('.toggle').click(function () {
-                $('.toggle').toggleClass('active')
-                $('nav').toggleClass('active')
-            })
-        })
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $(".toggle").toggleClass("active");
+          $("nav").toggleClass("active");
+        });
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
