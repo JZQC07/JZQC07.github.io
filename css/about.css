@@ -14,8 +14,8 @@ body {
 }
 
 .about-section {
-    background: url(/photos/pic.jpg) no-repeat left;
-    background-size: 55%;
+    background: url(/photos/pic.jpg) left no-repeat;
+    background-size: 100%;
     background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
@@ -24,7 +24,6 @@ body {
 .inner-container {
     width: 55%;
     float: right;
-    background-color: #fdfdfd;
     padding: 150px;
 }
 
@@ -32,6 +31,7 @@ body {
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
+    color: white;
 }
 
 .text {
@@ -47,6 +47,7 @@ body {
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
+    color: white;
 }
 
 @media screen and (max-width:1200px) {
