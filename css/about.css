@@ -1,78 +1,63 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f1f1f1;
+    background-color: whitesmoke;
+    background-position: 0 1000px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.about-section {
-    background: url(/photos/pic.jpg) left no-repeat;
-    background-size: 100%;
-    background-color: #fdfdfd;
-    overflow: hidden;
-    padding: 100px 0;
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
 }
 
-.inner-container {
-    width: 55%;
-    float: right;
-    padding: 150px;
-}
-
-.inner-container h1 {
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
-    color: white;
-}
-
-.text {
-    font-size: 13px;
-    color: #545454;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
-}
-
-.skills {
-    display: flex;
-    justify-content: space-between;
+h1 {
+    color: Black;
+    font-size: 5rem;
     font-weight: 700;
-    font-size: 13px;
-    color: white;
 }
 
-@media screen and (max-width:1200px) {
-    .inner-container {
-        padding: 80px;
-    }
+h2 {
+    color: #777;
+    font-size: 4rem;
+    font-weight: 400;
 }
 
-@media screen and (max-width:1000px) {
-    .about-section {
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-
-    .inner-container {
-        width: 100%;
-    }
+.image {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
 
-@media screen and (max-width:600px) {
-    .about-section {
-        padding: 0;
-    }
+p {
+    font-size: 2rem;
+    color: black;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
 
-    .inner-container {
-        padding: 60px;
-    }
+.btn {
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background: #f6f6f6;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #398f51;
+    border-radius: 10px;
+    transition: background 0.5s;
+    margin-bottom: 3rem;
+}
+
+.btn:hover {
+    background: #dadada;
 }
