@@ -399,13 +399,13 @@ footer p:nth-child(2) {
     
     .picofme {
         overflow: hidden;
-        position: fixed;
+        position: absolute;
         left: 40%;
         mix-blend-mode: color-burn;
-        top: 0px;
+        top: 10%;
         flex-direction: column;
         width: 90%;
-        height: auto;
+        height: 70%;
         padding: 30px 0px;
         align-items: center;
     }
@@ -460,6 +460,7 @@ footer p:nth-child(2) {
 
     .toggle {
         display: block;
+        cursor: pointer;
     }
 
     .text-container p:nth-child(2) {
@@ -485,11 +486,13 @@ footer p:nth-child(2) {
     
     .picofme {
         overflow: hidden;
-        position: fixed;
+        position: absolute;
+        left: 40%;
         mix-blend-mode: color-burn;
+        top: 10%;
         flex-direction: column;
-        width: 100%;
-        height: auto;
+        width: 90%;
+        height: 70%;
         padding: 30px 0px;
         align-items: center;
     }
